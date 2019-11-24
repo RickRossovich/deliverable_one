@@ -1,0 +1,193 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e8ded9;
+    padding: 20px;
+    
+}
+
+.title{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list{
+    
+    color: #5b8c6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: small;
+       
+}
+
+.code{
+    color: #61c386;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.button1, .button2{
+    background-color: #61c386;
+    color: white;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.think{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    ;
+
+}
+
+.teal{
+    font-family: 'Roboto', sans-serif;
+    color: #5b8c6f;
+    font-size: smaller;
+    font-weight: 300;
+}
+
+
+@media screen and (min-width:768px) {
+  
+   
+    .container{
+        display: block;
+        background-color: #e8ded9;
+        height: 800px;   
+    }
+
+    .image{
+        display: block;
+        justify-content: flex-end;
+    }
+    .hero-image{
+        background-image: url(/Users/villianousvoltron/Desktop/pre-work/jackson-part-one/css/code1.png);
+        height: 260px;
+        width: 400px;
+        background-position: right;
+        background-repeat: none;
+        position: absolute;
+        background-size: cover;
+        right: 150px;
+        top: 200px
+    }
+    .lower{
+        display: flex;
+        background-color: #e8ded9;
+        
+    }
+
+    .p{
+        position: relative;
+        top: 50px;
+        left: 20px;
+    }
+    
+    .title{
+        position: relative;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        top: 20px;
+        left: 30px;
+
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 4px;
+        position: relative;
+        bottom: 20px;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .list{
+        
+        color: #5b8c6f;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: small;
+        margin: 10px;
+           
+    }
+    
+    .code{
+        color: #61c386;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+    .button1 {
+        background-color: #61c386;
+        color: white;
+        width: auto;
+        font-family: 'Roboto', sans-serif;
+        padding: 12px;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+    .button2{
+        background-color: #61c386;
+        color: white;
+        width: auto;
+        font-family: 'Roboto', sans-serif;
+        padding: 12px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        left: 30px;
+        top: 60px;
+    }
+    
+    
+   
+    .think{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: x-large;
+        width: 380px;
+    
+    }
+    
+    .teal{
+        font-family: 'Roboto', sans-serif;
+        color: #5b8c6f;
+        font-size: smaller;
+    }
+    li:hover{
+        color: #61c386;
+    }
+    
+    button:hover{
+        background-color: #f7e966;
+        color: #61c386;
+    
+    }
+
+}
